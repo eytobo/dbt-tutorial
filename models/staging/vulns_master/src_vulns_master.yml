@@ -8,6 +8,10 @@ sources:
     tables:
       - name: findings
       - name: vulnerabilities
+        columns:
+          - name: finding_last_source
+            tests:
+              - not_null
       - name: projects_master
       - name: f_and_l_vulnerabilities_treatment
       - name: vulnerabilities_zero_risk_last
