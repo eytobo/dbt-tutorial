@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: ftest
+    description: Data for vulnerabilities master all
+    database: dev
+    schema: ftest
+    tables:
+      - name: findings
+      - name: vulnerabilities
+      - name: projects_master
+      - name: f_and_l_vulnerabilities_treatment
+      - name: vulnerabilities_zero_risk_last

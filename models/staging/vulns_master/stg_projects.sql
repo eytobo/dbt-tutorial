@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('ftest','projects_master') }}
