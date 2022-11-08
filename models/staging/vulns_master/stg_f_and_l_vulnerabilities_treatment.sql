@@ -1,0 +1,1 @@
+select * from {{ source('ftest','f_and_l_vulnerabilities_treatment') }}
